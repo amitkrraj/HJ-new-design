@@ -1,0 +1,31 @@
+.searchBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+}
+.searchText{
+    width: 25rem;
+    padding: 0.6rem;
+    border: #c0c0c0 1px solid;
+    border: var(--primary) 1px solid;
+    /* border-radius: 2rem; */
+}
+
+.searchBtn{
+    text-decoration: none;
+    text-align: center;
+    width: 4rem;
+    height: 2.20rem;
+    color: var(--light);
+    position: absolute;
+    right: 0.6px;
+    display: grid;
+    place-items: center;
+    background: var(--pure);
+}
+
+.searchBtn .fa-search{
+    font-size: 23px;
+}

@@ -92,7 +92,8 @@ body{
   .nav-background{
       width:100%;
       height:100%;
-      background:var(--light);
+      /* background: url(../../../hj/images/banner/Like-Stars.jpg); */
+      background: #6C6C6C;
       position: absolute;
       top:0;
       left:0;
@@ -224,12 +225,21 @@ nav .navbarmain{
     position: fixed;
 }
 
+nav .navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .navbar .navbaroption{
+    /* margin-right: -10rem; */
+    right: 0;
+}
 nav .navbar a{
     text-decoration:none;
     color:var(--secondary);
     font-family:"Raleway-semibold";
     font-size:1rem;
-    padding:1rem 1.5rem;
+    padding:0.5rem 1rem;
     transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
